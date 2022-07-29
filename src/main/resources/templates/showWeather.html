@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather now</title>
+    </head>
+    <body th:object="${weather}">
+        Location: <p th:text="*{name}"></p>
+        <!-- <img th:src="$icon + .jpg" > -->
+        <img th:src="@{${'http://openweathermap.org/img/wn/' + icon + '@2x.png'}}" />
+        <br>
+        Weather:
+        <p th:text="${weatherNow}"></p>
+
+        <ul th:each="entry : ${hashWeather}">
+            <li th:text="${entry.value}"></li>
+        </ul> 
+
+        Temperature:
+        <br><br>
+        <span th:text="${temp}" /> degrees celcius
+        <br><br>
+        Visibility: <p th:text="*{visibility}"></p>
+
+        <img src="https://images.data.gov.sg/api/traffic-images/2022/07/269e85b9-5b75-4063-9682-0ada3b404b2a.jpg" />
+    </body>
+</html>
