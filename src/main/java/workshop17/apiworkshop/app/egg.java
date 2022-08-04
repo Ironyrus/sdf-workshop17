@@ -118,7 +118,7 @@ public class egg {
 		// String url = "https://api.openweathermap.org/data/2.5/weather?lat=1.2904753&lon=103.8520359&appid=9824543584cc813f0af0c0f55c267be9";
 		ResponseEntity<weatherObj> responseEntity =
 			// template.getForEntity(url, weatherObj.class);
-   			template.getForEntity(("https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=9824543584cc813f0af0c0f55c267be9"),
+   			template.getForEntity(("https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=" + weatherApiKey),
 						 weatherObj.class);
 		
 		System.out.println(responseEntity.getStatusCode());

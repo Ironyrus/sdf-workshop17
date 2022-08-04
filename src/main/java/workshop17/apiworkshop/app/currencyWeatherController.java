@@ -9,7 +9,11 @@ git add . (add ALL content of cart to github)
 git commit -m "While Loop"                  (add comment while committing)
 git push origin main                        (push to main branch)
 */
+//Deploying to Heroku using Github Actions - Kenneth's method
 //https://github.com/marketplace/actions/deploy-to-heroku
+
+//Deploying to Heroku using Heroku deployment features:
+//https://devcenter.heroku.com/articles/github-integration#enabling-github-integration
 
 import java.rmi.StubNotFoundException;
 import java.util.ArrayList;
