@@ -13,7 +13,7 @@ git init
 git remote add heroku  <replace wif your heroku git url>
 git add .
 git commit -m "new"
-git push heroku master 
+git push heroku master (IMPORTANT: Need system.properties file beside pom.xml, with content: java.runtime.version=18)
 
 TO START PROGRAM ON VS CODE
 mvn compile

@@ -46,6 +46,7 @@ public class egg {
 	public String country;
 	public String coordinates;
 	private String googleApiKey = "";
+	private String currApiKey = System.getenv("FIXER_API_KEY");
 	
 	@Autowired
 	geoloc geoloc;
@@ -134,7 +135,7 @@ public class egg {
 		String url = "https://api.apilayer.com/fixer/convert?to=" + to + "&from=" + from + "&amount=" + amount;
 		RestTemplate template = new RestTemplate();
 		RequestEntity<Void> request = RequestEntity.get(url)
-				.header("apikey", "tJa1Wng47Ln52O1H7lA8hHHUitlX6s6o") //We can send over a Header key and value
+				.header("apikey", currApiKey) //We can send over a Header key and value
 				.accept(MediaType.APPLICATION_JSON).build();
 		ResponseEntity<currConverter> response = template.exchange(request, currConverter.class);
 		System.out.println(response.getBody().getResult());
