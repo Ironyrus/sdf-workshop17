@@ -1,0 +1,78 @@
+From: https://developers.google.com/maps/documentation/geocoding/requests-geocoding
+
+URI for API:
+https://maps.googleapis.com/maps/api/geocode/json?address=heng%20mui%20keng%20terrace&key=AIzaSyBqzXxWmcOOyO4cHqQkEadgVFlqlO85MHc
+Google Geocoding API
+
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "Heng Mui Keng Terrace",
+                    "short_name": "Heng Mui Keng Terrace",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Queenstown",
+                    "short_name": "Queenstown",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "Singapore",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "SG",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Heng Mui Keng Terrace, Singapore",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 1.2924023,
+                        "lng": 103.7796092
+                    },
+                    "southwest": {
+                        "lat": 1.289153,
+                        "lng": 103.7730905
+                    }
+                },
+                "location": {
+                    "lat": 1.2908317,
+                    "lng": 103.7764095
+                },
+                "location_type": "GEOMETRIC_CENTER",
+                "viewport": {
+                    "northeast": {
+                        "lat": 1.2924023,
+                        "lng": 103.7796092
+                    },
+                    "southwest": {
+                        "lat": 1.289153,
+                        "lng": 103.7730905
+                    }
+                }
+            },
+            "place_id": "ChIJpVjjb1Ua2jERsgsR9MLDizI",
+            "types": [
+                "route"
+            ]
+        }
+    ],
+    "status": "OK"
+}

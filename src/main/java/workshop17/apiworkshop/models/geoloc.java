@@ -1,4 +1,4 @@
-package workshop17.apiworkshop.app;
+package workshop17.apiworkshop.models;
 
 public class geoloc {
     String name;

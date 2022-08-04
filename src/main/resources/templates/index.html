@@ -18,9 +18,9 @@
         <br>
         <br>
         <h2>Currency Converter</h2>
-        <form>
+        <form action="showConverter" method="get">
             From:
-            <select>
+            <select name="from">
                 <option value="USD">USD</option>
                 <option value="EUR">EUR</option>
                 <option value="JPY">JPY</option>
@@ -28,9 +28,10 @@
                 <option value="AUD">AUD</option>
                 <option value="CND">CND</option>
                 <option value="SGD">SGD</option>
+                <option value="MYR">MYR</option>
             </select>
-            &ampTo:
-            <select>
+            To:
+            <select name="to">
                 <option value="USD">USD</option>
                 <option value="EUR">EUR</option>
                 <option value="JPY">JPY</option>
@@ -38,8 +39,28 @@
                 <option value="AUD">AUD</option>
                 <option value="CND">CND</option>
                 <option value="SGD">SGD</option>
+                <option value="MYR">MYR</option>
             </select>            <br><br>
+            Amount: <input type="text" name="amount" placeholder="Amount">
             <input type="submit" value="Change Currency">
+        </form>
+
+        <br><br>
+        <!-- <form action="showTrafficCam" > -->
+        <form
+        action="#"
+        th:action="@{/showTrafficCam}"
+        th:object="${options}"
+        method="post">
+
+        <!-- 3.1 Option without selection -->
+        <!-- https://www.baeldung.com/thymeleaf-select-option -->
+        <select th:field="*{option}">  <!-- th:field value maps to POJO -->
+            <option  value="0">select option</option>
+            <!-- th:value will be returned to controller, will return to attribute mapped by th:field -->
+            <option th:each="eaOption : *{options}" th:value="${eaOption.option}" ><span th:text="${eaOption.getOption()}"></span></option>
+        </select>        
+        <input type="submit" value="show traffic camera" />
         </form>
     </body>
 </html>

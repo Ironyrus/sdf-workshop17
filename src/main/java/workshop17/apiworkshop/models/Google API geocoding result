@@ -1,0 +1,597 @@
+{
+    "plus_code": {
+        "compound_code": "CQW9+68G Singapore",
+        "global_code": "6PH5CQW9+68G"
+    },
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "21",
+                    "short_name": "21",
+                    "types": [
+                        "street_number"
+                    ]
+                },
+                {
+                    "long_name": "Woodlands Crossing",
+                    "short_name": "Woodlands Crossing",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Woodlands",
+                    "short_name": "Woodlands",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "Singapore",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "SG",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "738203",
+                    "short_name": "738203",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "21 Woodlands Crossing, Singapore 738203",
+            "geometry": {
+                "location": {
+                    "lat": 1.4459203,
+                    "lng": 103.7687247
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 1.447269280291502,
+                        "lng": 103.7700736802915
+                    },
+                    "southwest": {
+                        "lat": 1.444571319708498,
+                        "lng": 103.7673757197085
+                    }
+                }
+            },
+            "place_id": "ChIJcax8Ev0S2jER7fTRxrPHz2w",
+            "plus_code": {
+                "compound_code": "CQW9+9F Singapore",
+                "global_code": "6PH5CQW9+9F"
+            },
+            "types": [
+                "establishment",
+                "point_of_interest"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "Singapore Checkpoint",
+                    "short_name": "Singapore Checkpoint",
+                    "types": [
+                        "bus_station",
+                        "establishment",
+                        "point_of_interest",
+                        "transit_station"
+                    ]
+                },
+                {
+                    "long_name": "Woodlands",
+                    "short_name": "Woodlands",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "Singapore",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "SG",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Singapore Checkpoint, Singapore",
+            "geometry": {
+                "location": {
+                    "lat": 1.444879,
+                    "lng": 103.768504
+                },
+                "location_type": "GEOMETRIC_CENTER",
+                "viewport": {
+                    "northeast": {
+                        "lat": 1.446227980291502,
+                        "lng": 103.7698529802915
+                    },
+                    "southwest": {
+                        "lat": 1.443530019708498,
+                        "lng": 103.7671550197085
+                    }
+                }
+            },
+            "place_id": "ChIJO5Bj7_sS2jERSYFKwwWrcs4",
+            "plus_code": {
+                "compound_code": "CQV9+XC Singapore",
+                "global_code": "6PH5CQV9+XC"
+            },
+            "types": [
+                "bus_station",
+                "establishment",
+                "point_of_interest",
+                "transit_station"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "21",
+                    "short_name": "21",
+                    "types": [
+                        "street_number"
+                    ]
+                },
+                {
+                    "long_name": "Woodlands Crossing",
+                    "short_name": "Woodlands Crossing",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Woodlands",
+                    "short_name": "Woodlands",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "Singapore",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "SG",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "738203",
+                    "short_name": "738203",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "21 Woodlands Crossing, Singapore 738203",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 1.4452614,
+                        "lng": 103.7694983
+                    },
+                    "southwest": {
+                        "lat": 1.4436746,
+                        "lng": 103.7683212
+                    }
+                },
+                "location": {
+                    "lat": 1.44442,
+                    "lng": 103.768926
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 1.445816980291502,
+                        "lng": 103.7702587302915
+                    },
+                    "southwest": {
+                        "lat": 1.443119019708498,
+                        "lng": 103.7675607697085
+                    }
+                }
+            },
+            "place_id": "ChIJ-xpK_PsS2jERNbuYUdbRx2I",
+            "types": [
+                "premise"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "21",
+                    "short_name": "21",
+                    "types": [
+                        "street_number"
+                    ]
+                },
+                {
+                    "long_name": "Woodlands Crossing",
+                    "short_name": "Woodlands Crossing",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Woodlands",
+                    "short_name": "Woodlands",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "Singapore",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "SG",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "738203",
+                    "short_name": "738203",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "21 Woodlands Crossing, Singapore 738203",
+            "geometry": {
+                "location": {
+                    "lat": 1.4442536,
+                    "lng": 103.7686421
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 1.445602580291502,
+                        "lng": 103.7699910802915
+                    },
+                    "southwest": {
+                        "lat": 1.442904619708498,
+                        "lng": 103.7672931197085
+                    }
+                }
+            },
+            "place_id": "ChIJjbKgWfkS2jERvpRBL_ok90I",
+            "plus_code": {
+                "compound_code": "CQV9+PF Singapore",
+                "global_code": "6PH5CQV9+PF"
+            },
+            "types": [
+                "street_address"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "Woodlands Crossing",
+                    "short_name": "Woodlands Crossing",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Woodlands",
+                    "short_name": "Woodlands",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "Singapore",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "SG",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Woodlands Crossing, Singapore",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 1.4458989,
+                        "lng": 103.7684744
+                    },
+                    "southwest": {
+                        "lat": 1.4453661,
+                        "lng": 103.7682379
+                    }
+                },
+                "location": {
+                    "lat": 1.4456325,
+                    "lng": 103.7683561
+                },
+                "location_type": "GEOMETRIC_CENTER",
+                "viewport": {
+                    "northeast": {
+                        "lat": 1.446981480291502,
+                        "lng": 103.7697051302915
+                    },
+                    "southwest": {
+                        "lat": 1.444283519708498,
+                        "lng": 103.7670071697085
+                    }
+                }
+            },
+            "place_id": "ChIJ7xF6lPsS2jER1O5W0g52Hx4",
+            "types": [
+                "route"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "CQW9+68",
+                    "short_name": "CQW9+68",
+                    "types": [
+                        "plus_code"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "Singapore",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "SG",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "CQW9+68 Singapore",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 1.445625,
+                        "lng": 103.768375
+                    },
+                    "southwest": {
+                        "lat": 1.4455,
+                        "lng": 103.76825
+                    }
+                },
+                "location": {
+                    "lat": 1.4455541,
+                    "lng": 103.7683397
+                },
+                "location_type": "GEOMETRIC_CENTER",
+                "viewport": {
+                    "northeast": {
+                        "lat": 1.446911480291502,
+                        "lng": 103.7696614802915
+                    },
+                    "southwest": {
+                        "lat": 1.444213519708498,
+                        "lng": 103.7669635197085
+                    }
+                }
+            },
+            "place_id": "GhIJVJQBVv0g9z8R--1GeizxWUA",
+            "plus_code": {
+                "compound_code": "CQW9+68 Singapore",
+                "global_code": "6PH5CQW9+68"
+            },
+            "types": [
+                "plus_code"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "Woodlands",
+                    "short_name": "Woodlands",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "Singapore",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "SG",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Woodlands, Singapore",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 1.4613959,
+                        "lng": 103.8116452
+                    },
+                    "southwest": {
+                        "lat": 1.421458,
+                        "lng": 103.7649678
+                    }
+                },
+                "location": {
+                    "lat": 1.4381922,
+                    "lng": 103.7889597
+                },
+                "location_type": "APPROXIMATE",
+                "viewport": {
+                    "northeast": {
+                        "lat": 1.4613959,
+                        "lng": 103.8116452
+                    },
+                    "southwest": {
+                        "lat": 1.421458,
+                        "lng": 103.7649678
+                    }
+                }
+            },
+            "place_id": "ChIJVfCo8QgT2jERgKTarqz3AAU",
+            "types": [
+                "neighborhood",
+                "political"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "Singapore",
+                    "short_name": "Singapore",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Singapore",
+                    "short_name": "SG",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Singapore",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 1.4708809,
+                        "lng": 104.0415799
+                    },
+                    "southwest": {
+                        "lat": 1.216611,
+                        "lng": 103.6065099
+                    }
+                },
+                "location": {
+                    "lat": 1.3553794,
+                    "lng": 103.8677444
+                },
+                "location_type": "APPROXIMATE",
+                "viewport": {
+                    "northeast": {
+                        "lat": 1.4708809,
+                        "lng": 104.0415799
+                    },
+                    "southwest": {
+                        "lat": 1.216611,
+                        "lng": 103.6065099
+                    }
+                }
+            },
+            "place_id": "ChIJyY4rtGcX2jERIKTarqz3AAQ",
+            "types": [
+                "locality",
+                "political"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "Singapore",
+                    "short_name": "SG",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Singapore",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 1.4784001,
+                        "lng": 104.0945001
+                    },
+                    "southwest": {
+                        "lat": 1.1496,
+                        "lng": 103.594
+                    }
+                },
+                "location": {
+                    "lat": 1.352083,
+                    "lng": 103.819836
+                },
+                "location_type": "APPROXIMATE",
+                "viewport": {
+                    "northeast": {
+                        "lat": 1.4784001,
+                        "lng": 104.0945001
+                    },
+                    "southwest": {
+                        "lat": 1.1496,
+                        "lng": 103.594
+                    }
+                }
+            },
+            "place_id": "ChIJdZOLiiMR2jERxPWrUs9peIg",
+            "types": [
+                "country",
+                "political"
+            ]
+        }
+    ],
+    "status": "OK"
+}
