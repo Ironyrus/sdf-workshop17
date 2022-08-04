@@ -101,8 +101,7 @@ public class currencyWeatherController {
         //getting nearby locations
         String nearbyLocations = "No nearby location data found.";
         for (int i = 0; i < optionList.size(); i++) {
-            if(optionList.get(i).getOption().contains(options.getOption())){
-                System.out.println("Nearby Locations: " + optionList.get(i).getOptionNearbyLocations());
+            if(optionList.get(i).getOption().equals(options.getOption())){
                 nearbyLocations = optionList.get(i).getOptionNearbyLocations();
             }
         }
