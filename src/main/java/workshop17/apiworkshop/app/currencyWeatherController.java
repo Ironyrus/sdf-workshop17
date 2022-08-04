@@ -101,8 +101,8 @@ public class currencyWeatherController {
         //getting nearby locations
         String nearbyLocations = "No nearby location data found.";
         for (int i = 0; i < optionList.size(); i++) {
-            if(optionList.get(i).getOption().equals(options.getOption())){
-                nearbyLocations = (String)optionList.get(i).getOptionNearbyLocations();
+            if(optionList.get(i).getOption().trim().equals(options.getOption().trim())){
+                nearbyLocations = optionList.get(i).getOptionNearbyLocations();
             }
         }
         model.addAttribute("image", camera.get("image"));
