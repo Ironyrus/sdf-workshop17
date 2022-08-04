@@ -5,7 +5,7 @@ h1 {
     color: blue;
   }
 p {
-    color: red;
+    color: blue;
   }
 .form-inline {
     display: flex;
@@ -16,6 +16,6 @@ p {
 img {  
   height:400px; 
   width: auto; 
-  border: solid 2px red;
+  border: solid 2px orange;
   position:relative;
   }

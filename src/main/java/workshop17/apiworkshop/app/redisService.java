@@ -30,6 +30,7 @@ public class redisService implements bgRepo {
         max += 1; //When saving a new entry, the latest entry is max key + 1. Eg latest is 5, next is 5 + 1 = 6
         String id = max + ""; //Change from int to String
         redisTemplate.opsForValue().set(id, cameraData);
+
     }
 
     @Override

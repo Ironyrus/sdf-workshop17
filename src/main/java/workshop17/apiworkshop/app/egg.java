@@ -45,9 +45,10 @@ public class egg {
 
 	public String country;
 	public String coordinates;
-	private String googleApiKey = "";
+	private String googleApiKey = System.getenv("GOOGLE_API_KEY");;
 	private String currApiKey = System.getenv("FIXER_API_KEY");
-	
+	private String weatherApiKey = System.getenv("WEATHER_API_KEY");
+
 	@Autowired
 	geoloc geoloc;
 	
@@ -82,7 +83,7 @@ public class egg {
 		// ResponseEntity<geoloc> response = template.exchange(request, geoloc.class);
 
 		ResponseEntity<geoloc[]> responseEntity =
-   			template.getForEntity("http://api.openweathermap.org/geo/1.0/direct?q=" + country + "&limit=5&appid=9824543584cc813f0af0c0f55c267be9",
+   			template.getForEntity("http://api.openweathermap.org/geo/1.0/direct?q=" + country + "&limit=5&appid=" + weatherApiKey,
 						 geoloc[].class);
 		geoloc[] objects = responseEntity.getBody();
 		
@@ -197,7 +198,7 @@ public class egg {
 	// 		pWriter = new PrintWriter(fWriter);
 
 	// 		for (HashMap hashMap : cameraHash) {
-	// 			String url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + hashMap.get("coords") + "&key=AIzaSyBqzXxWmcOOyO4cHqQkEadgVFlqlO85MHc";
+	// 			String url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + hashMap.get("coords") + "&key=" + googleApiKey;
 	// 			ResponseEntity<googCode> responseEntity = 
 	// 				template.getForEntity(url, googCode.class);
 	// 			ArrayList<HashMap> results = responseEntity.getBody().getResults(); //each Google location that we retrieved
