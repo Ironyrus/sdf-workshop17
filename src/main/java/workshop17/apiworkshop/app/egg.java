@@ -74,10 +74,6 @@ public class egg {
 
 		//Craft out request
 		RestTemplate template = new RestTemplate();
-		// RequestEntity<Void> request = RequestEntity
-		// .get("http://api.openweathermap.org/geo/1.0/direct?q=Singapore&limit=5&appid=5996a2efa32ae55b6aa493b963bad792")
-		// .accept(MediaType.APPLICATION_JSON)
-		// .build();
 		
 		//Craft out response
 		// ResponseEntity<geoloc> response = template.exchange(request, geoloc.class);
@@ -101,11 +97,6 @@ public class egg {
 
 		System.out.println(Arrays.stream(objects)
 		.collect(Collectors.toList()).size());
-		//Test printing out as String
-		// ResponseEntity<String> responseEntity =
-   		// template.getForEntity("http://api.openweathermap.org/geo/1.0/direct?q=Singapore&limit=5&appid=9824543584cc813f0af0c0f55c267be9", String.class);
-		// String temp = responseEntity.getBody().substring(1, responseEntity.getBody().length() - 1);
-		// System.out.println(temp); //Works
 		return geoloc.getLat() + ", " + geoloc.getLon();
 	}
 
@@ -115,9 +106,7 @@ public class egg {
 		String longitude = coordinates[1].trim();
 
 		RestTemplate template = new RestTemplate();
-		// String url = "https://api.openweathermap.org/data/2.5/weather?lat=1.2904753&lon=103.8520359&appid=9824543584cc813f0af0c0f55c267be9";
 		ResponseEntity<weatherObj> responseEntity =
-			// template.getForEntity(url, weatherObj.class);
    			template.getForEntity(("https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=" + weatherApiKey),
 						 weatherObj.class);
 		

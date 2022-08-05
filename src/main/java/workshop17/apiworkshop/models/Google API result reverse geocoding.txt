@@ -1,7 +1,7 @@
 From: https://developers.google.com/maps/documentation/geocoding/requests-geocoding
 
 URI for API:
-https://maps.googleapis.com/maps/api/geocode/json?address=heng%20mui%20keng%20terrace&key=AIzaSyBqzXxWmcOOyO4cHqQkEadgVFlqlO85MHc
+https://maps.googleapis.com/maps/api/geocode/json?address=heng%20mui%20keng%20terrace&key=xxx
 Google Geocoding API
 
 {
